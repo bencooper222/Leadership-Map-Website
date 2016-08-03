@@ -16,6 +16,7 @@ function init() {
       neighbors = {},
       index = this.allNeighborsIndex[nodeId] || {};
 
+
     for (k in index)
       neighbors[k] = this.nodesIndex[k];
 
@@ -28,7 +29,7 @@ function init() {
       {
         container: document.getElementById("sigma-container"),
         type: "canvas"
-      }
+ }
     ]
   });
 
@@ -58,6 +59,8 @@ function init() {
       sigInst.refresh();
     }
   );
+
+     
 
 
   // When a node is clicked, check for each node to see if it is connected. If not, set its color as gray
