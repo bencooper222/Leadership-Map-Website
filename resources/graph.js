@@ -49,7 +49,7 @@
 
     // Parses GEXF file to fill the graph
     sigma.parsers.gexf(
-      "data/nonzeroedges with names.gexf",
+      "data/no names no zeros.gexf",
       sigInst,
       function() {
         //  Little hack here:
