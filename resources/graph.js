@@ -33,6 +33,7 @@
       defaultHoverLabelBGColor: "#888",
       defaultLabelBGColor: "#ddd",
       defaultEdgeType: "straight",
+      defaultNodeColor: "blue",
 
       // Graph properties :
       minNodeSize: 3,
@@ -43,6 +44,8 @@
       // Mouse properties :
       zoomMax: 20 
     });
+    
+   
 
     // Parses GEXF file to fill the graph
     sigma.parsers.gexf(
@@ -65,7 +68,7 @@
       }
     );
 
-
+    
      // When a node is clicked, check for each node to see if it is connected. If not, set its color as gray
      // Do the same for the edges
 
