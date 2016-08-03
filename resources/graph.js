@@ -49,7 +49,7 @@
 
     // Parses GEXF file to fill the graph
     sigma.parsers.gexf(
-      "data/no names no zeros.gexf",
+      "https://raw.githubusercontent.com/bencooper222/Leadership-Map-Website/gh-pages/Data/no%20names%20no%20zeros.gexf",
       sigInst,
       function() {
         //  Little hack here:
