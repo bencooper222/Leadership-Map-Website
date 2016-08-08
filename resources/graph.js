@@ -1,6 +1,5 @@
 
 var config;
-var sigInst;
 
 loadJSON('resources/config.json',function(json){
   config=JSON.parse(json);
@@ -25,7 +24,7 @@ function init() {
   });
 
   // Creates an instance of Sigma.js
-  sigInst = new sigma({
+  var sigInst = new sigma({
     renderers: [
       {
         container: document.getElementById("sigma-container"),
@@ -103,9 +102,6 @@ function init() {
 
     sigInst.refresh();
   });
-
-
-  
 }
 
 
@@ -115,7 +111,7 @@ function init() {
 
     var xobj = new XMLHttpRequest();
         xobj.overrideMimeType("application/json");
-    xobj.open('GET', location, true); 
+    xobj.open('GET', location, true); // Replace 'my_data' with the path to your file
     xobj.onreadystatechange = function () {
           if (xobj.readyState == 4 && xobj.status == "200") {
             // Required use of an anonymous callback as .open will NOT return a value but simply returns undefined in asynchronous mode
@@ -125,14 +121,7 @@ function init() {
     xobj.send(null);  
  }
 
-
- function searchByOrganization(organization){
-   var validNodes = [];
-   sigInst.graph.nodes().forEach(function(node) {
-     
-   });  
-
- }
+ 
 
 
 
