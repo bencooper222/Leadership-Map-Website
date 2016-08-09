@@ -9,13 +9,17 @@
   
   <script src="src/sigma.min.js"></script>
   <script src="src/sigma.parsers.gexf.min.js"></script>
+  <script src="src/sigma.plugins.filter.min.js"></script>
 
   <link rel="stylesheet" href="resources/style.css">
 
 </head>
 
 <body>
-  <div id="sidebar"></div>
+  <div id="sidebar">
+      <input id="edgeWeight" onkeypress="verifyEnter(event)">
+
+  </div>
   <div id="sigma-container"></div>
 
   <script src=resources/graph.js></script>

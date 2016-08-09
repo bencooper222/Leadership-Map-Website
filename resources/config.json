@@ -1,4 +1,4 @@
 {
     "datalocation": "data/nonzeroedges with names.gexf",
-    "sigmasettings": "{defaultLabelColor: '#000',defaultLabelSize: 14,defaultLabelHoverColor: '#fff',labelThreshold: 11,defaultHoverLabelBGColor: '#888',defaultLabelBGColor: '#ddd',defaultEdgeType: 'straight',defaultNodeColor: 'blue',minNodeSize: 3,maxNodeSize: 10,minEdgeSize: 0.1,maxEdgeSize: 0.2,zoomMax: 20}"        
+    "sigmasettings": "{defaultNodeColor:'#d3e343',defaultLabelColor:'#000',defaultLabelSize:14,defaultLabelHoverColor:'#fff',labelThreshold:11,defaultHoverLabelBGColor:'#888',defaultLabelBGColor:'#ddd',defaultEdgeType:'straight',minNodeSize:3,maxNodeSize:10,minEdgeSize:0.1,maxEdgeSize:0.2,zoomMax:20}"        
 }
