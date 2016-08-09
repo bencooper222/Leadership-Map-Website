@@ -67,6 +67,7 @@ function init() {
       //  In the latest Sigma.js version have to delete edges" colors manually
       sigInst.graph.edges().forEach(function (e) {
         e.color = null;
+
       });
 
       // Also, to facilitate the update of node colors, store
