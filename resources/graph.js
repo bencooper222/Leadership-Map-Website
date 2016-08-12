@@ -179,7 +179,7 @@ function getFilteredNeighrbors(nodeId) {
 }
 
 
-function verifyEnter(event) {
+function triggerFilter(event) {
   var obj = event.target;
   if (!event) event = window.event;
   var keyCode = event.keyCode || event.which;

@@ -1,13 +1,15 @@
 body {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+}
 
 #sigma-container {
   position: absolute;
   top: 0;
   left: 20%;
   bottom: 0;
-  width: 80%; }
+  width: 80%;
+}
 
 #sidebar {
   position: absolute;
@@ -15,8 +17,12 @@ body {
   bottom: 0;
   width: 250px;
   background-color: black;
-  color: #ddd; }
-  #sidebar .filterBox #weight {
-    background-color: blue; }
+  color: #ddd;
 
-/*# sourceMappingURL=style.css.map */
+  .filterBox {
+    font: Arial;
+    #weight {
+      background-color: blue;
+    }
+  }
+}
