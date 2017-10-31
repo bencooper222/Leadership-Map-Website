@@ -6,8 +6,7 @@
   </meta>
   <graph defaultedgetype="undirected" mode="static">
     <attributes class="node" mode="static">
-
-      <attribute id="organizations" title="Organizations" type="liststring" />
+     +      <attribute id="organizations" title="Organizations" type="string" />
 
     </attributes>
     <nodes>
