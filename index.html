@@ -5,20 +5,23 @@
 
   <meta charset=utf-8 />
   <title>IMSA Leadership Map</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" /> 
-  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
   <script src="src/sigma.min.js"></script>
   <script src="src/sigma.parsers.gexf.min.js"></script>
   <script src="src/sigma.plugins.filter.min.js"></script>
+
 
   <link rel="stylesheet" href="resources/style.css">
 
 </head>
 
-<body>
+<body onload="resizeContainers()" onresize="resizeContainers()">
   <div id="sidebar">
-      <input id="edgeWeight" onkeypress="verifyEnter(event)">
-
+    
+      <label>Filter by edge weight.</label>
+      <input id="edgeWeight" onkeypress="triggerFilter(event)">
+    
   </div>
   <div id="sigma-container"></div>
 
