@@ -1,7 +1,7 @@
 {
     "datalocation": "/data/no names no zeros.gexf",
     "sigmasettings": {
-        "defaultNodeColor": "#005596",
+        "defaultNodeColor": "rebeccapurple",
         "defaultLabelColor": "#000",
         "defaultLabelSize": 14,
         "defaultLabelHoverColor": "#fff",
