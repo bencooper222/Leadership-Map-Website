@@ -1,5 +1,5 @@
 {
-    "datalocation": "./data/connections.gexf",
+    "datalocation": "/Leadership-Map-Website/data/connections.gexf",
     "sigmasettings": {
         "defaultNodeColor": "rebeccapurple",
         "defaultLabelColor": "#000",
